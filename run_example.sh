@@ -2,11 +2,11 @@
 
 docker run \
     -it \
-    --name depth-estimation \
+    --name test-sol \
     --rm \
     --net host \
     --privileged \
     -e LD_LIBRARY_PATH=/app:$LD_LIBRARY_PATH \
-    depth-estimation:latest \
+    test-sol:latest \
 
 echo "Done."

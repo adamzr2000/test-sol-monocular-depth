@@ -1,1 +1,1 @@
-docker exec -it roscore-edge /bin/bash
+docker exec -it test-sol /bin/bash

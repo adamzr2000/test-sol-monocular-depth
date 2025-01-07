@@ -1,5 +1,5 @@
 #!/bin/bash
 
 #Assemble docker image. 
-echo 'Building depth-estimation docker image.'
-sudo docker build . -t depth-estimation
+echo 'Building test-sol docker image.'
+sudo docker build . -t test-sol
